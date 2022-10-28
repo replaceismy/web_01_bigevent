@@ -1,7 +1,9 @@
 $.ajaxPrefilter(function(options){
     
-    options.url = 'http://www.liulongbin.top:3007'+options.url
+    options.url = 'http://api-breakingnews-web.itheima.net'+options.url
 
+     //http://www.liulongbin.top:3007
+     //http://api-breakingnews-web.itheima.net
 
     if(options.url.indexOf('/my/') !== -1){
     options.headers = {
